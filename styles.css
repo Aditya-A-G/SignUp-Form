@@ -10,9 +10,6 @@
 :root {
   --clr-neon: hsl(317 100% 54%);
   --clr-bg: hsl(323 21% 16%);
-}
-
-html{
   font-size: 62/5%;
   color: white;
   font-family: "Roboto Condensed";
@@ -28,7 +25,7 @@ body{
 header{
   position: relative;
   height: 100vh;
-  width: 24vw;
+  width: 35vw;
 }
 
 header .background{
@@ -41,17 +38,16 @@ header .logo{
   top: 40px;
   object-fit: cover;
   bottom: 0;
-  left: 0;
+  left: 40px;
   right: 0;
-  height: 24%;
-  width: 100%;
+  width: 80%;
 }
 
 
 
 
 main{
-  width: 76vw;
+  width: 65vw;
   height: 100%;
 }
 
