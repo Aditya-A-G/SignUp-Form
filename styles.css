@@ -10,6 +10,7 @@
 :root {
   --clr-neon: hsl(317 100% 54%);
   --clr-bg: hsl(323 21% 16%);
+  --opacity: 0;
   font-size: 62/5%;
   color: white;
   font-family: "Roboto Condensed";
@@ -141,6 +142,13 @@ input:valid + .form_label::after{
   color: green;
 }
 
+input[type="password"]:valid{
+  border-color: #2afadf;
+}
+
+input[type="password"]:valid + .form_label::after{
+  opacity: var(--opacity);
+}
 
 .callToAction{
   height: 28%;
